@@ -1,0 +1,499 @@
+{
+    "_": "Français (FR)",
+    "about": {
+        "description": "Un gestionnaire de mots de passe libre, open-source et multiplateforme.",
+        "dialog": {
+            "close-button": "Fermer",
+            "close-button-title": "Fermer la boîte de dialogue à propos"
+        },
+        "title": "À propos",
+        "version": {
+            "core": "Core",
+            "desktop": "Desktop"
+        }
+    },
+    "add-vault-menu": {
+        "choose-file-prompt": "Choisissez le fichier d’un coffre-fort existant ou créez un nouveau coffre-fort :",
+        "choose-type-prompt": "Choisissez un type de coffre-fort à ajouter :",
+        "confirm": {
+            "existing-password": "Saisissez le mot de passe du coffre-fort principal :",
+            "new-password": "Saisissez un nouveau mot de passe pour le coffre-fort principal :",
+            "password-placeholder": "Mot de passe du coffre-fort..."
+        },
+        "google-auth-button": "S’authentifier",
+        "google-auth-button-title": "S’authentifier avec Google Drive",
+        "google-auth-error": "L’authentification Google a échoué",
+        "loader": {
+            "dropbox-auth": "Une fenêtre séparée s’ouvrira pour l’authentification",
+            "file-prompt": "Une boîte de dialogue s’ouvrira pour choisir un fichier de coffre-fort.",
+            "google-auth": {
+                "instr-1": "Vous pouvez sélectionner le niveau de permission que Buttercup utilisera lors de l’accès à votre compte <strong>Google Drive</strong>.",
+                "instr-2": "En sélectionnant un paramètre de permission <strong>étendu</strong>, Buttercup aura accès à tous les fichiers et dossiers de votre compte et aux partages connectés.",
+                "instr-3": "La sélection d’un paramètre <i>non-</i>étendu permettra à Buttercup d'accéder aux fichiers qu’il a créés ou auxquels il a accédé précédemment."
+            },
+            "webdav-auth": {
+                "password-label": "Mot de passe",
+                "password-plc": "Mot de passe WebDAV",
+                "url-label": "Service WebDAV",
+                "username-label": "Nom d’utilisateur :",
+                "username-plc": "Nom d’utilisateur WebDAV"
+            }
+        },
+        "page-choose-next": "Suivant",
+        "page-choose-next-title": "Continuer en ajoutant le coffre-fort",
+        "page-confirm-cancel": "Annuler",
+        "page-confirm-cancel-title": "Annuler le déverrouillage",
+        "page-confirm-finish": "Ajouter le coffre-fort",
+        "page-confirm-finish-title": "Confirmer l’ajout du coffre-fort",
+        "title": "Ajout d’un coffre-fort",
+        "webdav-continue": "Suivant",
+        "webdav-continue-title": "Se connecter à l’aide de WebDAV"
+    },
+    "add-vault-page": {
+        "cta-button": "Ajouter un coffre-fort",
+        "description": "Aucun coffre-fort n’a encore été ajouté...",
+        "title": "Premier démarrage"
+    },
+    "app-menu": {
+        "about": "À propos",
+        "add-new-vault": "Ajouter un nouveau",
+        "biometrics": "Utiliser le déverrouillage biométrique",
+        "close-window": "Fermer la fenêtre",
+        "connection": "Connexion",
+        "current": "Coffre-fort actuel",
+        "debug": "Debug",
+        "devtool": "Devtool",
+        "edit": "Modifier",
+        "enable-secure-file-host": "Activer l’accès par navigateur",
+        "export": "Exporter",
+        "import": "Importer",
+        "lock-all": "Tout verrouiller",
+        "lock-current-vault": "Verrouiller le coffre-fort actuel",
+        "open": "Ouvrir",
+        "open-vault": "Ouvrir le coffre-fort",
+        "preferences": "Préférences",
+        "quit": "Quitter",
+        "search": "Rechercher",
+        "unlock-vault": "Déverrouiller",
+        "unlocked-vaults": "{{count}} coffre-fort déverrouillé",
+        "unlocked-vaults_plural": "{{count}} coffres-forts déverrouillés",
+        "vaults": "Coffres-forts",
+        "view": "Voir",
+        "window": "Fenêtre",
+        "window-reposition": "Repositionner"
+    },
+    "biometrics": {
+        "prompt": {
+            "store": "Enregistrer l'empreinte pour le coffre-fort '{{name}}'",
+            "unlock-vault": "déverrouiller le coffre-fort '{{name}}'"
+        }
+    },
+    "browser-access-dialog": {
+        "code-copied": "Code d'accès par navigateur copié",
+        "dialog": {
+            "close-button": "Fermer",
+            "close-button-title": "Fermer la boîte de dialogue de connexion",
+            "instruction": {
+                "new-connection": "Une nouvelle connexion a été établie avec cette application, demandant un accès à distance à tous les coffres-forts de bureau (déverrouillés).",
+                "use-code": "Utilisez le code suivant pour l'autoriser."
+            },
+            "title": "Demande d'accès par navigateur"
+        }
+    },
+    "dialog": {
+        "attachment-save": {
+            "confirm-button": "Sauvegarder",
+            "title": "Télécharger la pièce jointe"
+        },
+        "biometric-reg": {
+            "button-cancel": "Annuler",
+            "button-cancel-title": "Annuler l'enregistrement",
+            "button-reg": "Enregistrer",
+            "button-reg-title": "Enregistrement des données biométriques",
+            "label": "Mot de passe du coffre-fort",
+            "placeholder": "Mot de passe du coffre-fort...",
+            "success": "Enregistrement des données biométriques réussi",
+            "title": "Enregistrer les données biométriques"
+        },
+        "confirm-generic": {
+            "cancel-button": "Annuler",
+            "confirm-button": "OK"
+        },
+        "export-file-chooser": {
+            "submit-button": "Exporter",
+            "title": "Exporter le coffre-fort '{{name}}'"
+        },
+        "file-chooser": {
+            "add": {
+                "cancel": "Annuler",
+                "cancel-title": "Annule la création d’un nouveau coffre-fort",
+                "confirm": "Définir",
+                "confirm-title": "Confirmer le nom de fichier du nouveau coffre-fort",
+                "description": "Saisissez un nom de fichier pour le nouveau coffre-fort :",
+                "title": "Ajout d’un coffre-fort"
+            },
+            "nav": {
+                "cancel-new": "Annuler la création",
+                "create-new": "Nouveau coffre-fort"
+            }
+        },
+        "file-vault": {
+            "add-existing": {
+                "bcup-filter": "Coffres-forts Buttercup",
+                "confirm-button": "Ajouter",
+                "title": "Ajout d’un coffre-fort existant"
+            },
+            "add-new": {
+                "bcup-filter": "Coffres-forts Buttercup",
+                "confirm-button": "Créer",
+                "title": "Ajout d’un nouveau coffre-fort"
+            }
+        },
+        "google-reauth": {
+            "close-button": {
+                "text": "Annuler",
+                "title": "Annuler l'authentification"
+            },
+            "description": "Réauthentification d'un coffre-fort Google Drive : {{vault}}",
+            "error": {
+                "reauth-failed": "Échec de la réauthentification"
+            },
+            "header": "L'authentification a expiré pour le coffre-fort",
+            "success": "Réauthentification réussie de Google Drive : Veuillez déverrouiller à nouveau",
+            "title": "Réauthentification Google"
+        },
+        "import-file-chooser": {
+            "submit-button": "Importer",
+            "title": "Importation depuis le coffre-fort {{importer}}."
+        },
+        "new-file-prompt": {
+            "button-cancel": {
+                "text": "Fermer",
+                "title": "Fermeture"
+            },
+            "button-existing": {
+                "text": "Charger existant",
+                "title": "Chargement d’un fichier de coffre-fort existant"
+            },
+            "button-new": {
+                "text": "Créer un nouveau",
+                "title": "Création d’un nouveau fichier de coffre-fort"
+            },
+            "prompt": "Souhaitez-vous créer un <i>nouveau</i> coffre-fort, ou en lire un existant ?",
+            "title": "Ajout d’un fichier de coffre-fort"
+        },
+        "password-prompt": {
+            "biometric-fallback": {
+                "unlock-count-exceeded": "Nombre maximal de déverrouillages biométriques dépassé : mot de passe requis",
+                "unlock-period-exceeded": "Période de déverrouillage biométrique expirée : mot de passe requis"
+            },
+            "button-cancel": "Annuler",
+            "button-cancel-title": "Annuler le déverrouillage",
+            "button-unlock": "Déverrouiller",
+            "button-unlock-title": "Confirmer le déverrouillage du coffre-fort.",
+            "label": "Mot de passe du coffre-fort",
+            "placeholder": "Mot de passe du coffre...",
+            "title": "Déverrouillage du coffre-fort"
+        }
+    },
+    "error": {
+        "attachment-add": "Échec de l'ajout des pièces jointes",
+        "attachment-delete": "Échec de la suppression de la pièce jointe",
+        "attachment-download": "Échec du téléchargement de la pièce jointe",
+        "attachment-preview": "Échec de la prévisualisation de la pièce jointe",
+        "biometric-invalid-password": "Un mot de passe invalide a été fourni pour activer les données biométriques sur un coffre-fort.",
+        "biometric-store-failed": "Échec du stockage des données biométriques",
+        "biometric-unlock-failed": "Échec du déverrouillage du coffre-fort par la biométrie",
+        "fatal-boundary": "Une erreur fatale s’est produite – nous sommes désolés que cela soit arrivé. Veuillez vérifier les détails ci-dessous au cas où ils aideraient à diagnostiquer le problème :",
+        "vault-settings-fetch-failed": "Échec du téléchargement des paramètres du coffre-fort"
+    },
+    "file-host": {
+        "code-copied": "Code du serveur de fichiers copié",
+        "dialog": {
+            "close-button": "Fermer",
+            "close-button-title": "Fermer la fenêtre de connexion",
+            "instruction": {
+                "new-connection": "Une nouvelle connexion a été établie avec cette application, demandant un accès à distance au serveur de fichiers.",
+                "use-code": "Utilisez le code suivant pour l’autoriser."
+            },
+            "title": "Sécurisation de la connexion au serveur de fichiers"
+        }
+    },
+    "input-required": "(requis)",
+    "notification": {
+        "attachment-downloaded": "La pièce jointe a été enregistrée avec succès",
+        "biometrics-disabled": "La biométrie est désactivée pour ce coffre-fort.",
+        "error": {
+            "biometrics-disable-failed": "Échec de la désactivation des données biométriques pour le coffre-fort : {{error}}",
+            "import-failed": "Échec de l'importation : {{error}}",
+            "languages-load": "Échec du chargement des langues",
+            "preferences-load": "Échec du chargement des préférences",
+            "preferences-save": "Échec de la sauvegarde des préférences",
+            "unknown-error": "Erreur inconnue",
+            "vault-format-upgrade-failed": "Échec de la mise à niveau du format du coffre-fort",
+            "vault-lock-failed": "Le verrouillage du coffre-fort a échoué",
+            "vault-save-failed": "La sauvegarde du coffre-fort a échoué",
+            "vault-settings-load": "Échec du chargement des paramètres du coffre-fort",
+            "vault-settings-save": "Échec de l'enregistrement des paramètres du coffre-fort",
+            "vault-unlock-failed": "Le déverrouillage du coffre-fort a échoué"
+        },
+        "export-success": "Exportation réussie du coffre-fort : {{name}}",
+        "import-success": "Importation réussie du coffre-fort : {{filename}}",
+        "preferences-saved": "Préférences enregistrées",
+        "vault-removed": "Coffre-fort supprimé : {{name}}",
+        "vault-saved": "Coffre-fort enregistré",
+        "vault-settings-saved": "Paramètres du coffre-fort enregistrés"
+    },
+    "preferences": {
+        "button": {
+            "cancel": "Annuler",
+            "cancel-title": "Annuler la mise à jour des préférences",
+            "save": "Enregistrer",
+            "save-title": "Enregistrer les modifications"
+        },
+        "item": {
+            "clear-clipboard": "Effacer automatiquement le presse-papiers",
+            "language": "Langue",
+            "lock-vaults-after-time": "Verrouiller les coffre-forts après un certain délai.",
+            "lock-vaults-after-time-desc": "Verrouiller automatiquement les coffres-forts après une certaine période d’inactivité.",
+            "lock-vaults-window-closed": "Verrouiller les coffres-forts si la fenêtre du coffre-fort est fermée",
+            "lock-vaults-window-closed-label": "Verrouillage à la fermeture",
+            "secure-file-host": {
+                "description": "Le serveur de fichiers sécurisé permet à l’<strong>extension de navigateur Buttercup</strong> de se connecter aux coffres-forts locaux de cet ordinateur via cette application.",
+                "label": "Activer le serveur de fichiers sécurisé",
+                "title": "Serveur de fichiers sécurisé"
+            },
+            "startup-options": {
+                "background": {
+                    "mode-hidden-always": "Caché à l'exécution",
+                    "mode-hidden-boot": "Caché au démarrage/à la connexion",
+                    "mode-none": "Jamais",
+                    "title": "Démarrer l'application en arrière-plan"
+                },
+                "start-with-session": "Démarrer automatiquement l'application lorsque ma session démarre",
+                "title": "Options de démarrage"
+            },
+            "theme": "Thème"
+        },
+        "section": {
+            "connectivity": "Connexion",
+            "general": "Général",
+            "privacy": "Vie privée",
+            "security": "Sécurité"
+        },
+        "title": "Préférences"
+    },
+    "search": {
+        "modal": {
+            "no-results": "Aucun résultat...",
+            "result-render-error": "Échec de restitution du résultat de recherche."
+        }
+    },
+    "source-type": {
+        "dropbox": "Dropbox",
+        "file": "Fichier",
+        "googledrive": "Google Drive",
+        "webdav": "WebDAV"
+    },
+    "theme": {
+        "dark": "Foncé",
+        "light": "Clair"
+    },
+    "update": {
+        "available": "Mise à jour disponible : {{version}}",
+        "dialog": {
+            "close-button": "Fermer",
+            "close-button-title": "Fermer les informations de mise à jour",
+            "title": "Mise à jour vers {{version}}",
+            "update-button": "Mise à jour",
+            "update-button-title": "Mise à jour de l’application maintenant"
+        },
+        "downloaded": "Mise à jour téléchargée",
+        "installed-restart": "Redémarrer",
+        "ready": "Prêt pour la mise à jour : {{version}}",
+        "view": "Voir"
+    },
+    "vault-editor": {
+        "locked-state": "Coffre-fort verrouillé",
+        "pending-state": "Coffre-fort occupé",
+        "unlocked-state": "Coffre-fort déverrouillé"
+    },
+    "vault-management": {
+        "close-button": "Fermer",
+        "close-button-title": "Gestion de la fermeture d'un coffre-fort",
+        "remove-vault-dialog": {
+            "cancel-button": "Annuler",
+            "cancel-button-title": "Annuler la suppression",
+            "description": "Êtes-vous certain(e) de vouloir supprimer le coffre-fort \"{{title}}\" ?",
+            "remove-button": "Supprimer",
+            "remove-button-title": "Confirmer la suppression du coffre-fort",
+            "title": "Supprimer le coffre-fort"
+        },
+        "title": "Coffres-forts"
+    },
+    "vault-settings": {
+        "backup": {
+            "description": "Sauvegardez de manière sécurisée votre coffre-fort localement lors de la sauvegarde.",
+            "path": {
+                "helper": "Laissez vide pour le chemin par défaut",
+                "label": "Chemin de sauvegarde",
+                "placeholder": "Chemin absolu de sauvegarde"
+            },
+            "switch": "Activer les sauvegardes locales",
+            "title": "Sauvegarde"
+        },
+        "biometric": {
+            "description": "Configurer les exigences de mot de passe lors de l'utilisation de la biométrie",
+            "enable-password-prompt-count": {
+                "label": "Nombre maximum de déverrouillages biométriques avant de demander de saisir le mot de passe",
+                "placeholder": "Nombre de déverrouillages biométriques",
+                "helper": "Laissez vide ou mettez à '0' pour désactiver"
+            },
+            "enable-password-prompt-timeout": {
+                "label": "Nombre maximum de jours avant de demander de saisir le mot de passe",
+                "placeholder": "Nombre de jours",
+                "helper": "Laissez vide ou mettez à '0' pour désactiver"
+            },
+            "title": "Biométrie"
+        },
+        "format": {
+            "a-description": "Le format A est le format original du coffre-fort Buttercup qui utilise des deltas pour stocker la structure du coffre-fort.",
+            "b-description": "Le format B est le nouveau format de coffre-fort Buttercup qui utilise une structure JSON pour gérer la structure et l'historique du coffre-fort.",
+            "a-upgrade-b": "Vous devriez passer au Format B, qui est actuellement <strong>stable</strong>. Il est recommandé de sauvegarder votre coffre-fort avant de le faire.",
+            "description": "Gérez le format actuel du coffre-fort et les mises à jour.",
+            "format-type": "Format {{format}}",
+            "title": "Format",
+            "upgrade-button": "Mise à niveau"
+        },
+        "not-unlocked": "Le coffre-fort doit être déverrouillé pour accéder à cette zone.",
+        "title": "Paramètres du coffre-fort : {{title}}"
+    },
+    "vault-tabs": {
+        "context-menu": {
+            "lock-vault": "Verrouiller le coffre-fort",
+            "remove-vault": "Supprimer le coffre-fort",
+            "unlock-vault": "Déverrouiller",
+            "vault-settings": "Paramètres du coffre-fort"
+        }
+    },
+    "vault-ui": {
+        "attachments": {
+            "confirm": {
+                "cancel": "Annuler",
+                "cancel-title": "Annuler la suppression d'une pièce jointe",
+                "delete": "Supprimer",
+                "delete-prompt": "La suppression de cette pièce jointe la fera disparaître définitivement de votre fichier archive.\nÊtes-vous sûr de vouloir la supprimer ?",
+                "delete-prompt-title": "Supprimer \"{{title}}\"",
+                "delete-title": "Confirmer la suppression de la pièce jointe"
+            },
+            "delete": "Supprimer",
+            "delete-title": "Supprimer la pièce jointe",
+            "download": "Télécharger",
+            "download-title": "Télécharger la pièce jointe",
+            "drop-files": "Déposer le(s) fichier(s) à ajouter au fichier archive",
+            "drop-instruction": "Faites glisser et déposez pour ajouter des pièces jointes"
+        },
+        "cancel": "Annuler",
+        "custom-fields": {
+            "change-type": "Changer le type :",
+            "delete-field": "Supprimer le champ",
+            "field-type": {
+                "text": "Texte (par défaut)",
+                "note": "Note",
+                "password": "Mot de passe",
+                "otp": "OTP"
+            }
+        },
+        "entries-list": {
+            "create-one-cta": "Pourquoi ne pas en créer un nouveau ?",
+            "documents": "Documents",
+            "filter-placeholder": "Filtrer...",
+            "filters-no-matches": "Aucune correspondance",
+            "no-entries": "Aucun document",
+            "sort": {
+                "alphabetical-asc": "Par ordre alphabétique (ascendant)",
+                "alphabetical-desc": "Par ordre alphabétique (descendant)",
+                "filter": "Filtrer"
+            },
+            "trash": "Corbeille",
+            "trash-empty": "Elle est vide"
+        },
+        "entry": {
+            "add-custom-field-btn": "Ajouter un champ personnalisé",
+            "attachments": "Attachements",
+            "cancel-edit": "Annuler",
+            "click-to-edit": "Cliquez pour éditer",
+            "custom-fields": "Champs personnalisés",
+            "edit": "Éditer",
+            "edit-document": "Éditer le document",
+            "field-controls": {
+                "password": {
+                    "hide": "Masquer",
+                    "reveal": "Révéler"
+                }
+            },
+            "none-selected": {
+                "message": "Sélectionner ou créer un nouveau document",
+                "title": "Aucun document sélectionné"
+            },
+            "save": "Sauvegarder",
+            "save-disabled-title": {
+                "readonly": "Impossible de modifier actuellement",
+                "untitled": "Certains champs n'ont pas de titre"
+            },
+            "trash-move": {
+                "message": "Êtes-vous sûr de vouloir déplacer cette entrée dans la corbeille ?",
+                "title": "Confirmer la mise à la corbeille",
+                "trash-btn": "Mettre à la corbeille"
+            },
+            "untitled": "(Sans titre)"
+        },
+        "entry-menu": {
+            "move-to": "Déplacer vers...",
+            "move-to-parent": "Déplacer vers {{group}}",
+            "move-to-trash": "Mettre à la corbeille"
+        },
+        "entry-type": {
+            "default-label": "Par défaut",
+            "title": {
+                "credit_card": "Carte bancaire ou de crédit",
+                "login": "Login",
+                "note": "Note",
+                "ssh_key": "Clé SSH",
+                "website": "Site web"
+            }
+        },
+        "group": {
+            "header": "Groupes",
+            "prompt": {
+                "cancel": "Annuler",
+                "create": "Créer un groupe",
+                "message": "Entrer le titre du groupe :",
+                "rename": "Renommer le groupe",
+                "save": "Sauvegarder"
+            }
+        },
+        "group-menu": {
+            "add-new-group": "Ajouter un nouveau groupe",
+            "move-to": "Déplacer vers...",
+            "move-to-parent": "Déplacer vers {{group}}",
+            "move-to-root": "Déplacer au niveau de la racine",
+            "move-to-trash": "Déplacer dans la corbeille",
+            "rename-group": "Renommer"
+        },
+        "new-entry": {
+            "cta": "Nouvelle entrée"
+        },
+        "trash": {
+            "close-button": "Fermer",
+            "empty-button-title": "Vider la corbeille",
+            "empty-confirm-dialog": {
+                "cancel-button": "Annuler",
+                "confirm-button": "Vider",
+                "message": "Êtes-vous sûr(e) de vouloir vider la corbeille ?",
+                "title": "Vider la corbeille"
+            },
+            "header": "Corbeille"
+        }
+    }
+}

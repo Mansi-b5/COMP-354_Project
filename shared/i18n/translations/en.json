@@ -1,0 +1,513 @@
+{
+    "_": "English (UK)",
+    "about": {
+        "description": "A free, open-source and cross-platform password manager.",
+        "dialog": {
+            "close-button": "Close",
+            "close-button-title": "Close about dialog"
+        },
+        "title": "About",
+        "version": {
+            "core": "Core",
+            "desktop": "Desktop"
+        }
+    },
+    "add-vault-menu": {
+        "choose-file-prompt": "Choose a vault file or create a new vault:",
+        "choose-type-prompt": "Choose a vault type to add:",
+        "confirm": {
+            "existing-password": "Enter the primary vault password:",
+            "new-password": "Enter a new primary vault password:",
+            "password-placeholder": "Vault password..."
+        },
+        "copy-auth-link": {
+            "button": "Copy URL",
+            "title": "Copy authentication URL",
+            "url-copied": "Authentication URL copied to clipboard"
+        },
+        "google-auth-button": "Authenticate",
+        "google-auth-button-title": "Authenticate with Google Drive",
+        "google-auth-error": "Google authentication failed",
+        "loader": {
+            "dropbox-auth": "A separate window will open for authentication",
+            "file-prompt": "A dialog will open for choosing a vault file",
+            "google-auth": {
+                "instr-1": "You may select the level of permission that Buttercup will use while accessing your <strong>Google Drive</strong> account.",
+                "instr-2": "Selecting an <strong>open</strong> permission setting will grant Buttercup access to all files and folders in your account and connected shares.",
+                "instr-3": "Selecting a <i>non-</i>open setting will grant Buttercup access to files that it has created/accessed previously."
+            },
+            "webdav-auth": {
+                "password-label": "Password",
+                "password-plc": "WebDAV Password",
+                "url-label": "WebDAV Service",
+                "username-label": "Username",
+                "username-plc": "WebDAV Username"
+            }
+        },
+        "page-choose-next": "Next",
+        "page-choose-next-title": "Continue adding vault",
+        "page-confirm-cancel": "Cancel",
+        "page-confirm-cancel-title": "Cancel unlock",
+        "page-confirm-finish": "Add Vault",
+        "page-confirm-finish-title": "Confirm vault addition",
+        "title": "Add Vault",
+        "webdav-continue": "Next",
+        "webdav-continue-title": "Connect using WebDAV"
+    },
+    "add-vault-page": {
+        "cta-button": "Add Vault",
+        "description": "No vaults have been added yet...",
+        "title": "A Fresh Start"
+    },
+    "app-menu": {
+        "about": "About",
+        "add-new-vault": "Add New",
+        "biometrics": "Use biometric unlock",
+        "close-window": "Close Window",
+        "connection": "Connection",
+        "current": "Current Vault",
+        "debug": "Debug",
+        "devtool": "Devtool",
+        "edit": "Edit",
+        "enable-secure-file-host": "Enable browser access",
+        "export": "Export",
+        "import": "Import",
+        "lock-all": "Lock All",
+        "lock-current-vault": "Lock current vault",
+        "open": "Open",
+        "open-vault": "Open Vault",
+        "preferences": "Preferences",
+        "quit": "Quit",
+        "search": "Search",
+        "unlock-vault": "Unlock",
+        "unlocked-vaults": "{{count}} unlocked vault",
+        "unlocked-vaults_plural": "{{count}} unlocked vaults",
+        "vaults": "Vaults",
+        "view": "View",
+        "window": "Window",
+        "window-reposition": "Reposition"
+    },
+    "biometrics": {
+        "prompt": {
+            "store": "store login for vault '{{name}}'",
+            "unlock-vault": "unlock vault '{{name}}'"
+        }
+    },
+    "browser-access-dialog": {
+        "code-copied": "Browser access code copied",
+        "dialog": {
+            "close-button": "Close",
+            "close-button-title": "Close connection dialog",
+            "instruction": {
+                "new-connection": "A new connection has been made to this application, requesting remote access to all desktop vaults (while unlocked).",
+                "use-code": "Use the following code to authorise it."
+            },
+            "title": "Browser Access Request"
+        }
+    },
+    "dialog": {
+        "attachment-save": {
+            "confirm-button": "Save",
+            "title": "Download Attachment"
+        },
+        "biometric-reg": {
+            "button-cancel": "Cancel",
+            "button-cancel-title": "Cancel registration",
+            "button-reg": "Register",
+            "button-reg-title": "Register biometrics",
+            "label": "Vault Password",
+            "placeholder": "Vault password...",
+            "success": "Successfully registered biometrics",
+            "title": "Register Biometrics"
+        },
+        "confirm-generic": {
+            "cancel-button": "Cancel",
+            "confirm-button": "Confirm"
+        },
+        "export-file-chooser": {
+            "submit-button": "Export",
+            "title": "Export vault '{{name}}'"
+        },
+        "file-chooser": {
+            "add": {
+                "cancel": "Cancel",
+                "cancel-title": "Cancel new vault creation",
+                "confirm": "Set Vault Target",
+                "confirm-title": "Confirm new vault filename",
+                "description": "Enter a filename for the new vault:",
+                "title": "Add Vault"
+            },
+            "nav": {
+                "cancel-new": "Cancel New",
+                "create-new": "New Vault"
+            }
+        },
+        "file-vault": {
+            "add-existing": {
+                "bcup-filter": "Buttercup Vaults",
+                "confirm-button": "Add",
+                "title": "Add Existing Vault"
+            },
+            "add-new": {
+                "bcup-filter": "Buttercup Vaults",
+                "confirm-button": "Create",
+                "title": "Add New Vault"
+            }
+        },
+        "google-reauth": {
+            "close-button": {
+                "text": "Cancel",
+                "title": "Cancel authentication"
+            },
+            "description": "Re-authenticating a Google Drive vault: {{vault}}",
+            "error": {
+                "reauth-failed": "Failed re-authenticating"
+            },
+            "header": "Authentication expired for vault",
+            "success": "Successfully re-authenticated Google Drive: Please unlock again",
+            "title": "Google Re-authentication"
+        },
+        "import-file-chooser": {
+            "submit-button": "Import",
+            "title": "Import from {{importer}} vault"
+        },
+        "new-file-prompt": {
+            "button-cancel": {
+                "text": "Close",
+                "title": "Close prompt"
+            },
+            "button-existing": {
+                "text": "Load Existing",
+                "title": "Loading existing vault file"
+            },
+            "button-new": {
+                "text": "Create New",
+                "title": "Create new vault file"
+            },
+            "prompt": "Do you wish to create a <i>new</i> vault, or read an existing one?",
+            "title": "Add Vault File"
+        },
+        "password-prompt": {
+            "biometric-fallback": {
+                "unlock-count-exceeded": "Maximum biometric unlock count exceeded: password required",
+                "unlock-period-exceeded": "Biometric unlock time period expired: password required"
+            },
+            "biometrics-enabled": {
+                "description": "Use biometric authentication to unlock automatically, or cancel to log in with a password.",
+                "title": "Biometric authentication active"
+            },
+            "button-cancel": "Cancel",
+            "button-cancel-title": "Cancel unlock",
+            "button-unlock": "Unlock",
+            "button-unlock-title": "Confirm vault unlock",
+            "label": "Vault Password",
+            "placeholder": "Vault password...",
+            "title": "Vault Unlock"
+        }
+    },
+    "error": {
+        "attachment-add": "Failed adding attachments",
+        "attachment-delete": "Failed deleting attachment",
+        "attachment-download": "Failed downloading attachment",
+        "attachment-preview": "Failed previewing attachment",
+        "biometric-invalid-password": "An invalid password was provided for enabling biometrics on a vault",
+        "biometric-store-failed": "Failed storing biometric details",
+        "biometric-unlock-failed": "Failed unlocking vault using biometrics",
+        "fatal-boundary": "A fatal error has occurred - we're sorry this has happened. Please check out the details below in case they help diagnose the issue:",
+        "vault-settings-fetch-failed": "Failed fetching vault settings"
+    },
+    "file-host": {
+        "code-copied": "File host code copied",
+        "dialog": {
+            "close-button": "Close",
+            "close-button-title": "Close connection dialog",
+            "instruction": {
+                "new-connection": "A new connection has been made to this application, requesting remote access to the file system.",
+                "use-code": "Use the following code to authorise it."
+            },
+            "title": "Secure File Host Connection"
+        }
+    },
+    "input-required": "(required)",
+    "notification": {
+        "attachment-downloaded": "Attachment saved successfully",
+        "biometrics-disabled": "Biometrics disabled for vault",
+        "error": {
+            "biometrics-disable-failed": "Failed disabling biometrics for vault: {{error}}",
+            "import-failed": "Failed importing: {{error}}",
+            "languages-load": "Failed loading languages",
+            "preferences-load": "Failed loading preferences",
+            "preferences-save": "Failed saving preferences",
+            "unknown-error": "Unknown error",
+            "vault-format-upgrade-failed": "Vault format upgrade failed",
+            "vault-lock-failed": "Vault lock failed",
+            "vault-save-failed": "Vault failed to save",
+            "vault-settings-load": "Failed loading vault settings",
+            "vault-settings-save": "Failed saving vault settings",
+            "vault-unlock-failed": "Vault unlock failed"
+        },
+        "export-success": "Successfully exported vault: {{name}}",
+        "import-success": "Successfully imported vault: {{filename}}",
+        "preferences-saved": "Saved preferences",
+        "vault-removed": "Vault removed: {{name}}",
+        "vault-saved": "Vault saved",
+        "vault-settings-saved": "Saved vault settings"
+    },
+    "preferences": {
+        "button": {
+            "cancel": "Cancel",
+            "cancel-title": "Cancel Preferences update",
+            "save": "Save",
+            "save-title": "Save changes"
+        },
+        "item": {
+            "clear-clipboard": "Automatically clear clipboard",
+            "language": "Language",
+            "lock-vaults-after-time": "Lock vaults after time",
+            "lock-vaults-after-time-desc": "Automatically lock vaults after some period of inactivity.",
+            "lock-vaults-window-closed": "Lock vaults if vault window closed",
+            "lock-vaults-window-closed-label": "Lock on close",
+            "pre-release": {
+                "description": "Allow Buttercup to update from the <strong>pre-release channel</strong> in addition to the stable channel. <strong>Use at your own risk</strong>. Pre-release versions are rarely stable and can corrupt vault contents and preferences.",
+                "label": "Enable the pre-release update channel",
+                "title": "Pre-release updates"
+            },
+            "secure-file-host": {
+                "description": "The secure file host allows the <strong>Buttercup Browser Extension</strong> to connect to local vaults on this PC via this application.",
+                "label": "Enable secure file host",
+                "title": "Secure file host"
+            },
+            "startup-options": {
+                "background": {
+                    "mode-hidden-always": "Hidden on execute",
+                    "mode-hidden-boot": "Hidden on boot/login",
+                    "mode-none": "Never",
+                    "title": "Start application in background"
+                },
+                "start-with-session": "Auto-start application when my session launches",
+                "title": "Startup options"
+            },
+            "theme": "Theme"
+        },
+        "section": {
+            "connectivity": "Connectivity",
+            "general": "General",
+            "security": "Security",
+            "updates": "Updates"
+        },
+        "title": "Preferences"
+    },
+    "search": {
+        "modal": {
+            "no-results": "No results...",
+            "result-render-error": "Failed rendering search result"
+        }
+    },
+    "source-type": {
+        "dropbox": "Dropbox",
+        "file": "File",
+        "googledrive": "Google Drive",
+        "webdav": "WebDAV"
+    },
+    "theme": {
+        "dark": "Dark",
+        "light": "Light"
+    },
+    "update": {
+        "available": "Update available: {{version}}",
+        "dialog": {
+            "close-button": "Close",
+            "close-button-title": "Close update information",
+            "title": "Upgrade to {{version}}",
+            "update-button": "Update",
+            "update-button-title": "Update the application now"
+        },
+        "downloaded": "Update downloaded",
+        "installed-restart": "Restart",
+        "ready": "Update ready: {{version}}",
+        "view": "View"
+    },
+    "vault-editor": {
+        "locked-state": "Vault Locked",
+        "pending-state": "Vault Busy",
+        "unlocked-state": "Vault Unlocked"
+    },
+    "vault-management": {
+        "close-button": "Close",
+        "close-button-title": "Close vault management",
+        "remove-vault-dialog": {
+            "cancel-button": "Cancel",
+            "cancel-button-title": "Cancel removal",
+            "description": "Are you sure that you want to remove the vault \"{{title}}\"?",
+            "remove-button": "Remove",
+            "remove-button-title": "Confirm vault removal",
+            "title": "Remove Vault"
+        },
+        "title": "Vaults"
+    },
+    "vault-settings": {
+        "backup": {
+            "description": "Securely backup your vault locally when saving.",
+            "path": {
+                "helper": "Leave blank for default path",
+                "label": "Backup Path",
+                "placeholder": "Absolute backup path"
+            },
+            "switch": "Enable local backups",
+            "title": "Backup"
+        },
+        "biometric": {
+            "description": "Configure password requirement when using biometrics",
+            "enable-password-prompt-count": {
+                "label": "Maximum number of biometric unlocks before prompting to type in password",
+                "placeholder": "Number of biometric unlock",
+                "helper": "Leave blank or set it to '0' to disable"
+            },
+            "enable-password-prompt-timeout": {
+                "label": "Maximum number of days before prompting to type in password",
+                "placeholder": "Number of days",
+                "helper": "Leave blank or set it to '0' to disable"
+            },
+            "title": "Biometrics"
+        },
+        "format": {
+            "a-description": "Format A is the original Buttercup vault format that uses deltas to store vault structure.",
+            "b-description": "Format B is the new Buttercup vault format that uses a JSON structure to manage vault structure and history.",
+            "a-upgrade-b": "You should upgrade to Format B, which is currently <strong>stable</strong>. It is recommended that you backup your vault before doing this.",
+            "description": "Manage current vault format and updates.",
+            "format-type": "Format {{format}}",
+            "title": "Format",
+            "upgrade-button": "Upgrade"
+        },
+        "not-unlocked": "Vault must be unlocked to access this area.",
+        "title": "Vault Settings: {{title}}"
+    },
+    "vault-tabs": {
+        "context-menu": {
+            "lock-vault": "Lock vault",
+            "remove-vault": "Remove vault",
+            "unlock-vault": "Unlock vault",
+            "vault-settings": "Vault settings"
+        }
+    },
+    "vault-ui": {
+        "attachments": {
+            "confirm": {
+                "cancel": "Cancel",
+                "cancel-title": "Cancel attachment deletion",
+                "delete": "Delete",
+                "delete-prompt": "Deleting this attachment will permanently remove it from your vault.\nAre you sure that you want to delete it?",
+                "delete-prompt-title": "Delete \"{{title}}\"",
+                "delete-title": "Confirm attachment deletion"
+            },
+            "delete": "Delete",
+            "delete-title": "Delete attachment",
+            "download": "Download",
+            "download-title": "Download attachment",
+            "drop-files": "Drop file(s) to add to vault",
+            "drop-instruction": "Drag and drop to add attachments"
+        },
+        "cancel": "Cancel",
+        "custom-fields": {
+            "change-type": "Change Type:",
+            "delete-field": "Delete Field",
+            "field-type": {
+                "text": "Text (default)",
+                "note": "Note",
+                "password": "Password",
+                "otp": "OTP"
+            }
+        },
+        "entries-list": {
+            "create-one-cta": "Why not create one?",
+            "documents": "Documents",
+            "filter-placeholder": "Filter...",
+            "filters-no-matches": "No matches",
+            "no-entries": "No Documents",
+            "sort": {
+                "alphabetical-asc": "Alphabetical (ascending)",
+                "alphabetical-desc": "Alphabetical (descending)",
+                "filter": "Filter"
+            },
+            "trash": "Trash",
+            "trash-empty": "It's empty"
+        },
+        "entry": {
+            "add-custom-field-btn": "Add Custom Field",
+            "attachments": "Attachments",
+            "cancel-edit": "Cancel",
+            "click-to-edit": "Click to edit",
+            "custom-fields": "Custom Fields",
+            "edit": "Edit",
+            "edit-document": "Edit Document",
+            "field-controls": {
+                "password": {
+                    "hide": "Hide",
+                    "reveal": "Reveal"
+                }
+            },
+            "none-selected": {
+                "message": "Select or create a new document",
+                "title": "No document selected"
+            },
+            "save": "Save",
+            "save-disabled-title": {
+                "readonly": "Editing not possible right now",
+                "untitled": "Some fields are missing titles"
+            },
+            "trash-move": {
+                "message": "Are you sure you want to move this entry to Trash?",
+                "title": "Confirm move to Trash",
+                "trash-btn": "Move to Trash"
+            },
+            "untitled": "(Untitled)"
+        },
+        "entry-menu": {
+            "move-to": "Move to...",
+            "move-to-parent": "Move to {{group}}",
+            "move-to-trash": "Move to Trash"
+        },
+        "entry-type": {
+            "default-label": "Default",
+            "title": {
+                "credit_card": "Credit/Bank Card",
+                "login": "Login",
+                "note": "Note",
+                "ssh_key": "SSH Key",
+                "website": "Website"
+            }
+        },
+        "group": {
+            "header": "Groups",
+            "prompt": {
+                "cancel": "Cancel",
+                "create": "Create Group",
+                "message": "Enter group title:",
+                "rename": "Rename Group",
+                "save": "Save"
+            }
+        },
+        "group-menu": {
+            "add-new-group": "Add New Group",
+            "move-to": "Move to...",
+            "move-to-parent": "Move to {{group}}",
+            "move-to-root": "Move to root level",
+            "move-to-trash": "Move to Trash",
+            "rename-group": "Rename"
+        },
+        "new-entry": {
+            "cta": "New Entry"
+        },
+        "trash": {
+            "close-button": "Close",
+            "empty-button-title": "Empty Trash",
+            "empty-confirm-dialog": {
+                "cancel-button": "Cancel",
+                "confirm-button": "Empty",
+                "message": "Are you sure that you want to empty the trash?",
+                "title": "Empty Trash"
+            },
+            "header": "Trash"
+        }
+    }
+}
